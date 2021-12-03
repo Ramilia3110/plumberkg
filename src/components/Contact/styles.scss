@@ -1,0 +1,71 @@
+.contact {
+  position: relative;
+  width: 100%;
+  height: max-content;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #74c4f3;
+  background-image: linear-gradient(315deg, #8acbf0 0%, #e1c8e2 74%);
+  h2 {
+    padding:3rem;
+    font-size: var(--big-font-size);
+    font-weight: 700;
+  }
+}
+
+.glass{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 55rem;
+  padding: 3rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 2rem;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  display: flex;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-field .input, .input-field .msg {
+  margin:1rem 0 ;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--first-color);
+  padding: 1rem;
+  color: var(--first-color);
+  outline: none;
+}
+
+
+.contact-us-btn{
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 1.8rem;
+}
+::-webkit-input-placeholder
+ {
+  font-family: "Montserrat";
+  font-size: var(--normal-font-size);
+ 
+}
+
+::-moz-placeholder{
+  font-family: "Montserrat";
+  font-size: var(--normal-font-size);
+}
+::-ms-input-placeholder{
+  font-family: "Montserrat";
+  font-size: var(--normal-font-size);
+}
