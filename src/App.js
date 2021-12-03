@@ -6,6 +6,7 @@ import Reviews from "./components/Reviews";
 import Hero from "./components/Hero";
 import Contact from "./components/Contact";
 import Photogallery from "./components/Photogallery"
+import Footer from "./components/Footer"
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Hero/>
       <Contact/>
       <Photogallery/>
+      <Footer/>
     </div>
   );
 }
