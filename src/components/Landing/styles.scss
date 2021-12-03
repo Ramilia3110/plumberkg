@@ -1,5 +1,6 @@
 .landing {
   position: relative;
+  overflow: hidden;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -126,6 +127,11 @@
     color: #fff;
     padding: .7rem 3rem;
     border-radius: 3rem;
+    z-index: 3;
+    cursor: pointer;  
+  }
+  .contact-btn:hover{ 
+      background-color: aquamarine;
     
   }
 }
@@ -154,11 +160,12 @@
 
 @media only screen and (max-width: 768px) {
     .landing-img {
-    padding-top: 3rem;
+    padding: 3rem;
+    width: 70%;
       
     }
     .text-content{
-      padding: 9.5rem 1rem 0 1rem;
+      padding: 7.5rem 1rem 0 1rem;
     }
   
 }
